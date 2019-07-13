@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
+
 
 export default function Employe({ employe }) {
     const {name,slug,designation,images} =employe; 
@@ -17,4 +17,3 @@ export default function Employe({ employe }) {
         </article>
     );
 }
-

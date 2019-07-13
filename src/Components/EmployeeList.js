@@ -11,7 +11,7 @@ if(employee.length === 0){
     
 }
     return (
-        <section className="dataslist">
+        <div className="dataslist">
         <div className="dataslist-center">
         {
             employee.map(item => {
@@ -21,6 +21,6 @@ if(employee.length === 0){
         }
         </div>
         
-        </section>
+        </div>
     )
 }

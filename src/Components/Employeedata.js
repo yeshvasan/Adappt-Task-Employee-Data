@@ -21,7 +21,7 @@ export default class Employeedata extends Component {
        
         
         return (
-           <section className = "developer">
+           <div className = "developer">
            <div>
            <Title  title='Developers' />
            </div>
@@ -31,7 +31,7 @@ export default class Employeedata extends Component {
            </div>
            
            
-            </section>
+            </div>
            
         );
     }

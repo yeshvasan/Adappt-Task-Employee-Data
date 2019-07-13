@@ -19,6 +19,7 @@ function App() {
     <Route exact path="/addemployee/:slug" component={Prakash} />
     <Route component = {Error} />
     </Switch>
+    
     </React.Fragment>
   )
 }
